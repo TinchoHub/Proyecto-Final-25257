@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(['/users','/usuarios'], userRoutes);
 
-app.use(['/products', '/productos'], productRoutes);
+app.use(['/products','/productos'], productRoutes);
 
 app.use((req, res) => {
     res.status(404).json({ error: 'Ruta no encontrada' });
