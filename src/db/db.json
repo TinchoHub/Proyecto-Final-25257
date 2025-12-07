@@ -1,0 +1,70 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Martin",
+      "email": "martin@mail.com",
+      "password": "$2b$10$UH.Xweq5ut5rBTTpnqWZbe0Jdex2teW8DoONz9GvkR.LUe3AgBv5W",
+      "rol": "admin",
+      "ubicacion": "La Lonja",
+      "experiencia": "sin experiencia"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin",
+      "email": "nano@mail.com",
+      "password": "$2b$10$tt8g8FbuNomWdCVcK.4No.b4vlK9Sg8xRIq//vXIP8T.iUwCczklW",
+      "rol": "admin",
+      "ubicacion": "La Lonja",
+      "experiencia": "sin experiencia"
+    },
+    {
+      "id": 3,
+      "nombre": "Tori",
+      "email": "Tori@mail.com",
+      "password": "$2b$10$JHPVw8hOkt/vWqXjNaZE1OHk0OKwNzMUAzxFnHgMx3fDt3qI5jOXW",
+      "rol": "cliente",
+      "ubicacion": "La Lonja",
+      "experiencia": "sin experiencia"
+    },
+    {
+      "id": 4,
+      "nombre": "Sia",
+      "email": "Sia@mail.com",
+      "password": "$2b$10$GNVOBylslDsvsaBXFqR1luTP1aEAsU19PAXqficEawFmcm6IGMdl2",
+      "rol": "cliente",
+      "ubicacion": "La Lonja",
+      "experiencia": "sin experiencia"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop",
+      "precio": 1200,
+      "stock": 10,
+      "categoria": "Electrónica"
+    },
+    {
+      "id": 2,
+      "nombre": "Smartphone",
+      "precio": 800,
+      "stock": 25,
+      "categoria": "Electrónica"
+    },
+    {
+      "id": 3,
+      "nombre": "Camiseta",
+      "precio": 20,
+      "stock": 100,
+      "categoria": "Ropa"
+    },
+    {
+      "id": 4,
+      "nombre": "Libro",
+      "precio": 15,
+      "stock": 50,
+      "categoria": "Literatura"
+    }
+  ]
+}
